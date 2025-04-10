@@ -14,9 +14,14 @@ app.use((req, res, next) => {
   next();
 });
 
+// ✅ Root route for testing
+app.get('/', (req, res) => {
+  res.send('✅ Myntra Backend API is running!');
+});
+
 app.get('/items', async (req, res) => {
   const storedItems = await getStoredItems();
-  await new Promise((resolve, reject) => setTimeout(() => resolve(), 2000));
+  await new Promise((resolve) => setTimeout(resolve, 2000)); // simulate delay
   res.json({ items: storedItems });
 });
 
