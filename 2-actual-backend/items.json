@@ -15,15 +15,14 @@
       },
       {
         "id": "002",
-        "image": "images/2.jpg",
-        "company": "CUKOO",
-        "item_name": "Women Padded Halter Neck Swimming Dress",
-        "original_price": 2599,
-        "current_price": 1507,
-        "discount_percentage": 42,
-        "return_period": 14,
-        "delivery_date": "10 Oct 2023",
-        "rating": { "stars": 4.3, "count": 24 }
+        "image": "images/7.jpg",
+        "company": "The Indian Garage Co",
+        "item_name": "Men Slim Fit Regular Shorts",
+        "original_price": 1599,
+        "current_price": 639,
+        "discount_percentage": 60,
+        "rating": { "stars": 4.2, "count": 388 }
+       
       },
       {
         "id": "003",
@@ -75,13 +74,15 @@
       },
       {
         "id": "007",
-        "image": "images/7.jpg",
-        "company": "The Indian Garage Co",
-        "item_name": "Men Slim Fit Regular Shorts",
-        "original_price": 1599,
-        "current_price": 639,
-        "discount_percentage": 60,
-        "rating": { "stars": 4.2, "count": 388 }
+         "image": "images/2.jpg",
+        "company": "CUKOO",
+        "item_name": "Women Padded Halter Neck Swimming Dress",
+        "original_price": 2599,
+        "current_price": 1507,
+        "discount_percentage": 42,
+        "return_period": 14,
+        "delivery_date": "10 Oct 2023",
+        "rating": { "stars": 4.3, "count": 24 }
       },
       {
         "id": "008",

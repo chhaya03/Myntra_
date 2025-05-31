@@ -14,7 +14,7 @@ const FetchItems = () => {
     const signal = controller.signal;
 
     dispatch(FetchStatusActions.markFetchingStarted());
-    fetch("http://localhost:8080/items", { signal })
+    fetch(`${import.meta.env.VITE_BACKEND_URL}/items`, { signal })
       .then((res) => res.json())
       .then(({ items }) => {
         dispatch(FetchStatusActions.markFetchDone());
